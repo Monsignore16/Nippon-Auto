@@ -45,7 +45,33 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 10px 6px -6px #a5a5a5;
+  display: inline-block;
 }
+
+.header .top_content {
+  float: right;
+  width: 700px;
+}
+
+.header .contact {
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 10px 6px -6px #a5a5a5;
+  float: right;
+}
+
+.header .contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px 0 0;
+}
+
+.header .contact ul li {
+  font-size: 70%;
+  line-height: 25px;
+}
+
 
 main .article {
   background-color: #fff;
