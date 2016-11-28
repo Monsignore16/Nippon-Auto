@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: url('../images/Nippon.png') #f2f2f2;
+  font-family: 'Ariel', sans-serif;
+  font-size: 100%;
+  color: #757575;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  width: 940px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1.logo {
+  background: url('../images/nippon_auto_logo.png') #fff;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: left center;
+  overflow: hidden;
+  margin: 0;
+  text-indent: 110%;
+  white-space: nowrap;
+  height: 175px;
+  width: 175px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 10px 6px -6px #a5a5a5;
+}
+
+main .article {
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  float: left;
+  width: 720px;
+  padding: 20px;
+}
+
+main .article h1 {
+  font-size: 120%;
+  background: #f2f2f2;
+  padding: 7px 0 7px 10px;
+  margin: 0 -20px 0 0;
+  text-shadow: 0 1px #fff;
+  font-weight: normal;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+
+main .aside {
+  background-color: #f2f2f2;
+  border-top-right-radius: 10px;
+  float: left;
+  width: 220px;
+}
+
+main .aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+main .aside figure {
+  background-color: #b9b9b9;
+  padding: 5px;
+  margin: 20px;
+}
+
+main .aside figure:hover {
+  background-color: black;
+}
+
+main .aside figure:hover {
+  background-color: red;
+}
+
+main .aside figure img {
+  max-width: 100%;
+  border: 1px solid #fff;
+}
+
+main .aside figcaption {
+  color: #fff;
+  font-size: 80%;
+}
+
+/*Clearfix*/
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
