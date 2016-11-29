@@ -205,13 +205,13 @@ main .aside figcaption {
   text-decoration: underline;;
 }
 
-.footer .bottom_box .links li a::after {
+.footer .bottom_box .links li::after {
   content: "\007C";
   color: #fff;
   margin-left: 7px;
 }
 
-.footer .bottom_box .links li:last-child a::after {
+.footer .bottom_box .links li:last-child::after {
   content: "";
   margin-left: 0;
 }
